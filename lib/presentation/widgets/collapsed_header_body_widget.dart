@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:surf_practice_magic_ball/presentation/services/slow_animation_provider.dart';
+import 'package:surf_practice_magic_ball/presentation/services/theme_provider.dart';
 import 'package:surf_practice_magic_ball/presentation/widgets/collapsed_header_widget.dart';
 import 'package:surf_practice_magic_ball/presentation/widgets/color_picker_widget.dart';
-import 'package:surf_practice_magic_ball/presentation/services/theme_provider.dart';
 
 class CollapsedHeaderBodyWidget extends StatelessWidget {
   const CollapsedHeaderBodyWidget(this.toggle, {super.key});
@@ -53,25 +53,6 @@ class CollapsedHeaderBodyWidget extends StatelessWidget {
         ),
         const SizedBox(height: 15),
       ],
-    );
-  }
-}
-
-class _Subtitle extends StatelessWidget {
-  const _Subtitle(this.content);
-
-  final String content;
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 15),
-      child: Text(
-        content,
-        style: const TextStyle(
-          fontWeight: FontWeight.w500,
-        ),
-      ),
     );
   }
 }
