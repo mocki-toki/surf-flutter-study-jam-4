@@ -52,7 +52,7 @@ class _Body extends StatelessWidget {
         pentacleState = const ErrorPentacleState('123');
     }
 
-    final isError = pentacleState is ErrorPentacleState;
+    final isLoading = pentacleState is LoadingPentacleState;
 
     return Scaffold(
       extendBodyBehindAppBar: true,
@@ -89,7 +89,7 @@ class _Body extends StatelessWidget {
               style: ButtonStyle(
                 minimumSize: MaterialStateProperty.all(const Size(150, 60)),
               ),
-              onPressed: context.read<HomeBloc>().getReading,
+              onPressed: isLoading ? null : context.read<HomeBloc>().getReading,
               child: const Text("I'm lucky!"),
             ),
           ),
