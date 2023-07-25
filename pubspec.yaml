@@ -1,19 +1,17 @@
 name: surf_practice_magic_ball
 description: A new Flutter project.
 
-publish_to: 'none'
+publish_to: "none"
 
 version: 1.0.0+1
 
 environment:
-  sdk: 3.0.3 # Dart SDK version
-  flutter: 3.10.3 # Flutter SDK version
+  sdk: ^3.0.3 # Dart SDK version
+  flutter: ^3.10.3 # Flutter SDK version
 
 dependencies:
   flutter:
     sdk: flutter
-
-  cupertino_icons: ^1.0.2
 
 dev_dependencies:
   flutter_test:
@@ -21,5 +19,4 @@ dev_dependencies:
 
   flutter_lints: ^2.0.1
 flutter:
-
   uses-material-design: true
