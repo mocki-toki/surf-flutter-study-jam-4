@@ -1,6 +1,6 @@
-// Theme Provider Inherited Widget
 import 'package:flutter/material.dart';
 
+/// [ThemeProvider] это провайдер для параметров цветового оттенка и темной темы.
 class ThemeProvider with ChangeNotifier {
   ThemeProvider({
     required Color seedColor,
