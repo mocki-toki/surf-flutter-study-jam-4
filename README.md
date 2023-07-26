@@ -14,10 +14,10 @@
 
 # Ссылки на демонстрацию работы/скриншоты
 
-<p align="center"><img src="../assets/1.png" width="250"><img src="../assets/2.png" width="250"></p>
-<p align="center"><img src="../assets/3.png" width="250"><img src="../assets/4.png" width="250"></p>
-<p align="center"><img src="../assets/5.png" width="250"><img src="../assets/6.png" width="250"></p>
-<p align="center"><img src="../assets/7.png" width="250"><video src="../assets/8.mp4" width="250"></p>
+<p align="center"><img src="docs/assets/1.png" width="250"><img src="docs/assets/2.png" width="250"></p>
+<p align="center"><img src="docs/assets/3.png" width="250"><img src="docs/assets/4.png" width="250"></p>
+<p align="center"><img src="docs/assets/5.png" width="250"><img src="docs/assets/6.png" width="250"></p>
+<p align="center"><img src="docs/assets/7.png" width="250"><video src="docs/assets/8.mp4" width="250"></p>
 
 ## Видео
 
