@@ -21,7 +21,7 @@
 
 ## Видео
 
-https://github.com/mocki-toki/surf-flutter-study-jam-4/blob/study-jam-4/docs/assets/8.mp4
+https://github.com/mocki-toki/surf-flutter-study-jam-4/assets/115447460/3af3eb92-b3cb-4aa7-baee-005b29bec881
 
 ## Скачать APK
 
